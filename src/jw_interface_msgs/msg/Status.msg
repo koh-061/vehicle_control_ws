@@ -1,5 +1,0 @@
-jw_interface_msgs/TimeStampStatus time_stamp
-jw_interface_msgs/MotorRPMStatus motor_rpm
-jw_interface_msgs/BatteryStatus battery
-jw_interface_msgs/SpeedSettingStatus speed_setting
-jw_interface_msgs/JSADStatus js_ad

@@ -1,3 +1,0 @@
-jw_interface_msgs/ModeCommand mode
-jw_interface_msgs/JSADCommand js_ad
-jw_interface_msgs/MotorRPMCommand motor_rpm
