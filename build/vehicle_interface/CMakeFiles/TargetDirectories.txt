@@ -1,0 +1,10 @@
+/root/workspace/vehicle_control_ws/build/vehicle_interface/CMakeFiles/uninstall.dir
+/root/workspace/vehicle_control_ws/build/vehicle_interface/CMakeFiles/vehicle_interface_uninstall.dir
+/root/workspace/vehicle_control_ws/build/vehicle_interface/CMakeFiles/vehicle_interface_node.dir
+/root/workspace/vehicle_control_ws/build/vehicle_interface/CMakeFiles/test.dir
+/root/workspace/vehicle_control_ws/build/vehicle_interface/CMakeFiles/edit_cache.dir
+/root/workspace/vehicle_control_ws/build/vehicle_interface/CMakeFiles/rebuild_cache.dir
+/root/workspace/vehicle_control_ws/build/vehicle_interface/CMakeFiles/list_install_components.dir
+/root/workspace/vehicle_control_ws/build/vehicle_interface/CMakeFiles/install.dir
+/root/workspace/vehicle_control_ws/build/vehicle_interface/CMakeFiles/install/local.dir
+/root/workspace/vehicle_control_ws/build/vehicle_interface/CMakeFiles/install/strip.dir

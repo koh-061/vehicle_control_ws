@@ -1,0 +1,5 @@
+source;share/jw_interface_awiv_adapter/local_setup.bash
+source;share/jw_interface_awiv_adapter/local_setup.dsv
+source;share/jw_interface_awiv_adapter/local_setup.ps1
+source;share/jw_interface_awiv_adapter/local_setup.sh
+source;share/jw_interface_awiv_adapter/local_setup.zsh

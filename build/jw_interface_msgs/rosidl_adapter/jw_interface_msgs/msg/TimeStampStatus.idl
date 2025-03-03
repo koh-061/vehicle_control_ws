@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from jw_interface_msgs/msg/TimeStampStatus.msg
+// generated code does not contain a copyright notice
+
+
+module jw_interface_msgs {
+  module msg {
+    struct TimeStampStatus {
+      float time_stamp;
+    };
+  };
+};

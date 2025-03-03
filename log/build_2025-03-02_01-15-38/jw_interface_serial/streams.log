@@ -1,0 +1,44 @@
+[0.008s] Invoking command in '/root/workspace/vehicle_control_ws/build/jw_interface_serial': CMAKE_PREFIX_PATH=/root/workspace/vehicle_control_ws/install/jw_interface_msgs:/root/workspace/vehicle_control_ws/install/vehicle_interface:/opt/ros/humble:/root/workspace/vehicle_control/install/vehicle_control /usr/bin/cmake --build /root/workspace/vehicle_control_ws/build/jw_interface_serial -- -j10 -l10
+[0.040s] [ 66%] [32mBuilding CXX object CMakeFiles/jw_interface_serial_node.dir/src/jw_interface_serial_node.cpp.o[0m
+[0.040s] [ 66%] [32mBuilding CXX object CMakeFiles/jw_interface_serial_node.dir/src/jw_interface_serial_core.cpp.o[0m
+[2.338s] [01m[K/root/workspace/vehicle_control_ws/src/jw_interface_serial/src/jw_interface_serial_core.cpp:[m[K In member function ‘[01m[Kvoid JwInterfaceSerial::writeSerial()[m[K’:
+[2.338s] [01m[K/root/workspace/vehicle_control_ws/src/jw_interface_serial/src/jw_interface_serial_core.cpp:308:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kbuf[m[K’ [[01;35m[K-Wvla[m[K]
+[2.338s]   308 |   unsigned char [01;35m[Kbuf[m[K[command.size()] = {0};
+[2.338s]       |                 [01;35m[K^~~[m[K
+[2.338s] [01m[K/root/workspace/vehicle_control_ws/src/jw_interface_serial/src/jw_interface_serial_core.cpp:[m[K In member function ‘[01m[Kstd::array<unsigned char, 2> JwInterfaceSerial::toHexString(int)[m[K’:
+[2.338s] [01m[K/root/workspace/vehicle_control_ws/src/jw_interface_serial/src/jw_interface_serial_core.cpp:332:31:[m[K [01;35m[Kwarning: [m[Kargument to ‘[01m[Ksizeof[m[K’ in ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’ call is the same expression as the destination; did you mean to provide an explicit length? [[01;35m[K-Wsizeof-pointer-memaccess[m[K]
+[2.338s]   332 |   std::snprintf(&val_char[0], [01;35m[Ksizeof(&val_char[0])[m[K, "%8x", static_cast<int>(val));
+[2.338s]       |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.973s] [01m[K/root/workspace/vehicle_control_ws/src/jw_interface_serial/src/jw_interface_serial_core.cpp:332:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksnprintf[m[K’ output truncated before the last format character [[01;35m[K-Wformat-truncation=[m[K]
+[6.973s]   332 |   std::snprintf(&val_char[0], sizeof(&val_char[0]), "%8x[01;35m[K"[m[K, static_cast<int>(val));
+[6.973s]       |                                                         [01;35m[K^[m[K
+[6.973s] [01m[K/root/workspace/vehicle_control_ws/src/jw_interface_serial/src/jw_interface_serial_core.cpp:332:16:[m[K [01;36m[Knote: [m[K‘[01m[Ksnprintf[m[K’ output 9 bytes into a destination of size 8
+[6.973s]   332 |   [01;36m[Kstd::snprintf(&val_char[0], sizeof(&val_char[0]), "%8x", static_cast<int>(val))[m[K;
+[6.973s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.929s] [100%] [32m[1mLinking CXX executable jw_interface_serial_node[0m
+[9.280s] [100%] Built target jw_interface_serial_node
+[9.288s] Invoked command in '/root/workspace/vehicle_control_ws/build/jw_interface_serial' returned '0': CMAKE_PREFIX_PATH=/root/workspace/vehicle_control_ws/install/jw_interface_msgs:/root/workspace/vehicle_control_ws/install/vehicle_interface:/opt/ros/humble:/root/workspace/vehicle_control/install/vehicle_control /usr/bin/cmake --build /root/workspace/vehicle_control_ws/build/jw_interface_serial -- -j10 -l10
+[9.288s] Invoking command in '/root/workspace/vehicle_control_ws/build/jw_interface_serial': CMAKE_PREFIX_PATH=/root/workspace/vehicle_control_ws/install/jw_interface_msgs:/root/workspace/vehicle_control_ws/install/vehicle_interface:/opt/ros/humble:/root/workspace/vehicle_control/install/vehicle_control /usr/bin/cmake --install /root/workspace/vehicle_control_ws/build/jw_interface_serial
+[9.290s] -- Install configuration: ""
+[9.291s] -- Execute custom install script
+[9.291s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/include/jw_interface_serial/jw_interface_serial_core.hpp
+[9.296s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/lib/jw_interface_serial/jw_interface_serial_node
+[9.300s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/launch/jw_interface.launch.xml
+[9.304s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/ament_index/resource_index/package_run_dependencies/jw_interface_serial
+[9.308s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/ament_index/resource_index/parent_prefix_path/jw_interface_serial
+[9.312s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/environment/ament_prefix_path.sh
+[9.316s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/environment/ament_prefix_path.dsv
+[9.320s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/environment/path.sh
+[9.325s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/environment/path.dsv
+[9.332s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/local_setup.bash
+[9.337s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/local_setup.sh
+[9.341s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/local_setup.zsh
+[9.346s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/local_setup.dsv
+[9.350s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/package.dsv
+[9.354s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/ament_index/resource_index/packages/jw_interface_serial
+[9.361s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.365s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.366s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/cmake/jw_interface_serialConfig.cmake
+[9.370s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/cmake/jw_interface_serialConfig-version.cmake
+[9.374s] -- Symlinking: /root/workspace/vehicle_control_ws/install/jw_interface_serial/share/jw_interface_serial/package.xml
+[9.379s] Invoked command in '/root/workspace/vehicle_control_ws/build/jw_interface_serial' returned '0': CMAKE_PREFIX_PATH=/root/workspace/vehicle_control_ws/install/jw_interface_msgs:/root/workspace/vehicle_control_ws/install/vehicle_interface:/opt/ros/humble:/root/workspace/vehicle_control/install/vehicle_control /usr/bin/cmake --install /root/workspace/vehicle_control_ws/build/jw_interface_serial

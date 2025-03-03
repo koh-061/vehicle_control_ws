@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-99a8b9903d6484953a19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "autoware_auto_debug_msgs__py",
+					"jsonFile" : "directory-autoware_auto_debug_msgs__py-ff5fe3988c9e6cb41bc0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/workspace/vehicle_control_ws/build/autoware_auto_debug_msgs/autoware_auto_debug_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "autoware_auto_debug_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_autoware_auto_debug_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_autoware_auto_debug_msgs_egg-9f3bcdf965b3d195fccf.json",
+					"name" : "ament_cmake_python_build_autoware_auto_debug_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_autoware_auto_debug_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_autoware_auto_debug_msgs-f0285c47021fa458faea.json",
+					"name" : "ament_cmake_python_symlink_autoware_auto_debug_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoware_auto_debug_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoware_auto_debug_msgs-5ba6c8be124d4888f825.json",
+					"name" : "autoware_auto_debug_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoware_auto_debug_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoware_auto_debug_msgs__cpp-9f84d07a43f241ee9396.json",
+					"name" : "autoware_auto_debug_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "autoware_auto_debug_msgs__py::@f1598484c7bfd431da26",
+					"jsonFile" : "target-autoware_auto_debug_msgs__py-e1753b91ada0ebd115a3.json",
+					"name" : "autoware_auto_debug_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoware_auto_debug_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoware_auto_debug_msgs__rosidl_generator_c-85cab035ae4fb693ce5b.json",
+					"name" : "autoware_auto_debug_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoware_auto_debug_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoware_auto_debug_msgs__rosidl_generator_py-5762da6ef93b186ad367.json",
+					"name" : "autoware_auto_debug_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoware_auto_debug_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoware_auto_debug_msgs__rosidl_typesupport_c-72ad08be2cd0afed6f26.json",
+					"name" : "autoware_auto_debug_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoware_auto_debug_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoware_auto_debug_msgs__rosidl_typesupport_c__pyext-9d01d45a34532de3705c.json",
+					"name" : "autoware_auto_debug_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoware_auto_debug_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoware_auto_debug_msgs__rosidl_typesupport_cpp-0913a1afc686b35e98cb.json",
+					"name" : "autoware_auto_debug_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoware_auto_debug_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoware_auto_debug_msgs__rosidl_typesupport_fastrtps_c-e3a94db259f620d6878d.json",
+					"name" : "autoware_auto_debug_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoware_auto_debug_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoware_auto_debug_msgs__rosidl_typesupport_fastrtps_c__pyext-b25f4f7aba00b33d7db0.json",
+					"name" : "autoware_auto_debug_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoware_auto_debug_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoware_auto_debug_msgs__rosidl_typesupport_fastrtps_cpp-b08e30b3fe2ef1ae2e8a.json",
+					"name" : "autoware_auto_debug_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoware_auto_debug_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoware_auto_debug_msgs__rosidl_typesupport_introspection_c-ad7b71a155f06004706e.json",
+					"name" : "autoware_auto_debug_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoware_auto_debug_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoware_auto_debug_msgs__rosidl_typesupport_introspection_c__pyext-07a61c066303340a8281.json",
+					"name" : "autoware_auto_debug_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoware_auto_debug_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoware_auto_debug_msgs__rosidl_typesupport_introspection_cpp-43dd337f2d7e8548223e.json",
+					"name" : "autoware_auto_debug_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoware_auto_debug_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoware_auto_debug_msgs_uninstall-5dbaf65aa2901034501d.json",
+					"name" : "autoware_auto_debug_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7b305e7825e130050413.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/workspace/vehicle_control_ws/build/autoware_auto_debug_msgs",
+		"source" : "/root/workspace/vehicle_control_ws/src/autoware_auto_msgs/autoware_auto_debug_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

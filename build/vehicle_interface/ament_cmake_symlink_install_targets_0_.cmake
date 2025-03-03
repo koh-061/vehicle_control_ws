@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/workspace/vehicle_control_ws/build/vehicle_interface/vehicle_interface_node" "TARGETS" "vehicle_interface_node" "DESTINATION" "lib/vehicle_interface")

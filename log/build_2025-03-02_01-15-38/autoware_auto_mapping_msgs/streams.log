@@ -1,0 +1,283 @@
+[0.015s] Invoking command in '/root/workspace/vehicle_control_ws/build/autoware_auto_mapping_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspace/vehicle_control/install/vehicle_control /usr/bin/cmake /root/workspace/vehicle_control_ws/src/autoware_auto_msgs/autoware_auto_mapping_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs
+[0.048s] -- The C compiler identification is GNU 11.4.0
+[0.100s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.154s] -- Detecting C compiler ABI info - done
+[0.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.163s] -- Detecting C compile features
+[0.163s] -- Detecting C compile features - done
+[0.165s] -- Detecting CXX compiler ABI info
+[0.213s] -- Detecting CXX compiler ABI info - done
+[0.219s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.219s] -- Detecting CXX compile features
+[0.219s] -- Detecting CXX compile features - done
+[0.220s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.306s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.346s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.416s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.421s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.456s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.565s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.567s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.567s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.571s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.734s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.927s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.928s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.943s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.943s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.943s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.943s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[0.957s] -- Found PythonExtra: .so  
+[0.994s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[0.995s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[0.997s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.007s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.007s] -- Added test 'lint_cmake' to check CMake code style
+[1.008s] -- Added test 'xmllint' to check XML markup files
+[1.011s] -- Configuring done
+[1.062s] -- Generating done
+[1.077s] -- Build files have been written to: /root/workspace/vehicle_control_ws/build/autoware_auto_mapping_msgs
+[1.091s] Invoked command in '/root/workspace/vehicle_control_ws/build/autoware_auto_mapping_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspace/vehicle_control/install/vehicle_control /usr/bin/cmake /root/workspace/vehicle_control_ws/src/autoware_auto_msgs/autoware_auto_mapping_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs
+[1.092s] Invoking command in '/root/workspace/vehicle_control_ws/build/autoware_auto_mapping_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspace/vehicle_control/install/vehicle_control /usr/bin/cmake --build /root/workspace/vehicle_control_ws/build/autoware_auto_mapping_msgs -- -j10 -l10
+[1.147s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.158s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.177s] [  3%] Built target ament_cmake_python_symlink_autoware_auto_mapping_msgs
+[1.330s] running egg_info
+[1.331s] creating autoware_auto_mapping_msgs.egg-info
+[1.331s] writing autoware_auto_mapping_msgs.egg-info/PKG-INFO
+[1.332s] writing dependency_links to autoware_auto_mapping_msgs.egg-info/dependency_links.txt
+[1.332s] writing top-level names to autoware_auto_mapping_msgs.egg-info/top_level.txt
+[1.333s] writing manifest file 'autoware_auto_mapping_msgs.egg-info/SOURCES.txt'
+[1.334s] reading manifest file 'autoware_auto_mapping_msgs.egg-info/SOURCES.txt'
+[1.334s] writing manifest file 'autoware_auto_mapping_msgs.egg-info/SOURCES.txt'
+[1.359s] [  3%] Built target ament_cmake_python_build_autoware_auto_mapping_msgs_egg
+[1.700s] [  3%] Built target autoware_auto_mapping_msgs__cpp
+[1.712s] [  7%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_auto_mapping_msgs/srv/detail/had_map_service__functions.c.o[0m
+[1.712s] [  7%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_auto_mapping_msgs/msg/detail/had_map_segment__functions.c.o[0m
+[1.714s] [  9%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_auto_mapping_msgs/msg/detail/had_map_bin__functions.c.o[0m
+[1.722s] [ 10%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_auto_mapping_msgs/msg/detail/map_primitive__functions.c.o[0m
+[1.725s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.726s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.732s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.847s] [ 18%] [32m[1mLinking C shared library libautoware_auto_mapping_msgs__rosidl_generator_c.so[0m
+[1.903s] [ 18%] Built target autoware_auto_mapping_msgs__rosidl_generator_c
+[1.920s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.935s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.937s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.255s] [ 25%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_auto_mapping_msgs/msg/had_map_bin__type_support.cpp.o[0m
+[2.256s] [ 27%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_auto_mapping_msgs/msg/had_map_segment__type_support.cpp.o[0m
+[2.261s] [ 29%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_auto_mapping_msgs/msg/map_primitive__type_support.cpp.o[0m
+[2.296s] [ 30%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_auto_mapping_msgs/srv/had_map_service__type_support.cpp.o[0m
+[2.587s] [ 32%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_auto_mapping_msgs/msg/had_map_bin__type_support.cpp.o[0m
+[2.587s] [ 34%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_auto_mapping_msgs/msg/map_primitive__type_support.cpp.o[0m
+[2.587s] [ 36%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_auto_mapping_msgs/msg/had_map_segment__type_support.cpp.o[0m
+[2.621s] [ 38%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_auto_mapping_msgs/srv/had_map_service__type_support.cpp.o[0m
+[2.676s] [ 40%] [32m[1mLinking CXX shared library libautoware_auto_mapping_msgs__rosidl_typesupport_c.so[0m
+[2.736s] [ 40%] Built target autoware_auto_mapping_msgs__rosidl_typesupport_c
+[2.877s] [ 41%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_auto_mapping_msgs/msg/detail/dds_fastrtps/had_map_segment__type_support.cpp.o[0m
+[2.886s] [ 43%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_auto_mapping_msgs/msg/detail/dds_fastrtps/map_primitive__type_support.cpp.o[0m
+[2.886s] [ 45%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_auto_mapping_msgs/msg/detail/dds_fastrtps/had_map_bin__type_support.cpp.o[0m
+[2.889s] [ 47%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_auto_mapping_msgs/srv/detail/dds_fastrtps/had_map_service__type_support.cpp.o[0m
+[2.933s] [ 49%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_auto_mapping_msgs/msg/detail/had_map_bin__type_support.cpp.o[0m
+[2.933s] [ 50%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_auto_mapping_msgs/msg/detail/had_map_segment__type_support.cpp.o[0m
+[2.953s] [ 52%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_auto_mapping_msgs/msg/detail/map_primitive__type_support.cpp.o[0m
+[3.236s] [ 54%] [32m[1mLinking CXX shared library libautoware_auto_mapping_msgs__rosidl_typesupport_cpp.so[0m
+[3.367s] [ 54%] Built target autoware_auto_mapping_msgs__rosidl_typesupport_cpp
+[3.368s] [ 56%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_auto_mapping_msgs/srv/detail/had_map_service__type_support.cpp.o[0m
+[3.853s] [ 58%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_auto_mapping_msgs/msg/detail/had_map_segment__type_support.c.o[0m
+[3.853s] [ 60%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_auto_mapping_msgs/msg/detail/had_map_bin__type_support.c.o[0m
+[3.912s] [ 61%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_auto_mapping_msgs/srv/detail/had_map_service__type_support.c.o[0m
+[3.919s] [ 63%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_auto_mapping_msgs/msg/detail/map_primitive__type_support.c.o[0m
+[4.014s] [ 65%] [32m[1mLinking C shared library libautoware_auto_mapping_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.055s] [ 65%] Built target autoware_auto_mapping_msgs__rosidl_typesupport_introspection_c
+[4.064s] [ 67%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_auto_mapping_msgs/msg/detail/had_map_segment__type_support_c.cpp.o[0m
+[4.064s] [ 69%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_auto_mapping_msgs/msg/detail/had_map_bin__type_support_c.cpp.o[0m
+[4.072s] [ 70%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_auto_mapping_msgs/msg/detail/map_primitive__type_support_c.cpp.o[0m
+[4.084s] [ 72%] [32mBuilding CXX object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_auto_mapping_msgs/srv/detail/had_map_service__type_support_c.cpp.o[0m
+[4.603s] [ 74%] [32m[1mLinking CXX shared library libautoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.715s] [ 76%] [32m[1mLinking CXX shared library libautoware_auto_mapping_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.746s] [ 76%] Built target autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_cpp
+[4.880s] [ 76%] Built target autoware_auto_mapping_msgs__rosidl_typesupport_introspection_cpp
+[4.929s] [ 78%] [32m[1mLinking CXX shared library libautoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.127s] [ 78%] Built target autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_c
+[5.158s] [ 78%] Built target autoware_auto_mapping_msgs
+[5.207s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.387s] [ 80%] Built target autoware_auto_mapping_msgs__py
+[6.429s] [ 81%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_generator_py.dir/rosidl_generator_py/autoware_auto_mapping_msgs/msg/_map_primitive_s.c.o[0m
+[6.431s] [ 85%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_generator_py.dir/rosidl_generator_py/autoware_auto_mapping_msgs/msg/_had_map_bin_s.c.o[0m
+[6.431s] [ 85%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_generator_py.dir/rosidl_generator_py/autoware_auto_mapping_msgs/srv/_had_map_service_s.c.o[0m
+[6.438s] [ 87%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_generator_py.dir/rosidl_generator_py/autoware_auto_mapping_msgs/msg/_had_map_segment_s.c.o[0m
+[6.666s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/autoware_auto_mapping_msgs/libautoware_auto_mapping_msgs__rosidl_generator_py.so[0m
+[6.734s] [ 89%] Built target autoware_auto_mapping_msgs__rosidl_generator_py
+[6.770s] [ 90%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autoware_auto_mapping_msgs/_autoware_auto_mapping_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.770s] [ 92%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autoware_auto_mapping_msgs/_autoware_auto_mapping_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.791s] [ 94%] [32mBuilding C object CMakeFiles/autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autoware_auto_mapping_msgs/_autoware_auto_mapping_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.868s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[6.880s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[6.900s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[6.913s] [100%] Built target autoware_auto_mapping_msgs__rosidl_typesupport_c__pyext
+[6.917s] [100%] Built target autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.925s] [100%] Built target autoware_auto_mapping_msgs__rosidl_typesupport_introspection_c__pyext
+[6.932s] Invoked command in '/root/workspace/vehicle_control_ws/build/autoware_auto_mapping_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspace/vehicle_control/install/vehicle_control /usr/bin/cmake --build /root/workspace/vehicle_control_ws/build/autoware_auto_mapping_msgs -- -j10 -l10
+[6.936s] Invoking command in '/root/workspace/vehicle_control_ws/build/autoware_auto_mapping_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspace/vehicle_control/install/vehicle_control /usr/bin/cmake --install /root/workspace/vehicle_control_ws/build/autoware_auto_mapping_msgs
+[6.943s] -- Install configuration: ""
+[6.944s] -- Execute custom install script
+[6.944s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/ament_index/resource_index/rosidl_interfaces/autoware_auto_mapping_msgs
+[6.951s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_bin__functions.h
+[6.955s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_bin__struct.h
+[6.960s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_bin__type_support.h
+[6.964s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_segment__functions.h
+[6.969s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_segment__struct.h
+[6.973s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_segment__type_support.h
+[6.979s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/map_primitive__functions.h
+[6.984s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/map_primitive__struct.h
+[6.989s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/map_primitive__type_support.h
+[6.994s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/had_map_bin.h
+[6.998s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/had_map_segment.h
+[7.002s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/map_primitive.h
+[7.007s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.014s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/srv/detail/had_map_service__functions.h
+[7.018s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/srv/detail/had_map_service__struct.h
+[7.023s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/srv/detail/had_map_service__type_support.h
+[7.027s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/srv/had_map_service.h
+[7.031s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/environment/library_path.sh
+[7.035s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/environment/library_path.dsv
+[7.040s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_bin__rosidl_typesupport_fastrtps_c.h
+[7.044s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_segment__rosidl_typesupport_fastrtps_c.h
+[7.049s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/map_primitive__rosidl_typesupport_fastrtps_c.h
+[7.056s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.059s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/srv/detail/had_map_service__rosidl_typesupport_fastrtps_c.h
+[7.063s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_bin__rosidl_typesupport_introspection_c.h
+[7.068s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_segment__rosidl_typesupport_introspection_c.h
+[7.073s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/map_primitive__rosidl_typesupport_introspection_c.h
+[7.077s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.081s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/srv/detail/had_map_service__rosidl_typesupport_introspection_c.h
+[7.088s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_bin__builder.hpp
+[7.090s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_bin__struct.hpp
+[7.094s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_bin__traits.hpp
+[7.098s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_bin__type_support.hpp
+[7.102s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_segment__builder.hpp
+[7.106s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_segment__struct.hpp
+[7.112s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_segment__traits.hpp
+[7.116s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_segment__type_support.hpp
+[7.121s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/map_primitive__builder.hpp
+[7.126s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/map_primitive__struct.hpp
+[7.130s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/map_primitive__traits.hpp
+[7.136s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/map_primitive__type_support.hpp
+[7.138s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/had_map_bin.hpp
+[7.143s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/had_map_segment.hpp
+[7.148s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/map_primitive.hpp
+[7.152s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.156s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/srv/detail/had_map_service__builder.hpp
+[7.161s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/srv/detail/had_map_service__struct.hpp
+[7.165s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/srv/detail/had_map_service__traits.hpp
+[7.169s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/srv/detail/had_map_service__type_support.hpp
+[7.174s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/srv/had_map_service.hpp
+[7.178s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_bin__rosidl_typesupport_fastrtps_cpp.hpp
+[7.183s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_segment__rosidl_typesupport_fastrtps_cpp.hpp
+[7.188s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/map_primitive__rosidl_typesupport_fastrtps_cpp.hpp
+[7.192s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.197s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/srv/detail/had_map_service__rosidl_typesupport_fastrtps_cpp.hpp
+[7.202s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_bin__rosidl_typesupport_introspection_cpp.hpp
+[7.207s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/had_map_segment__rosidl_typesupport_introspection_cpp.hpp
+[7.211s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/msg/detail/map_primitive__rosidl_typesupport_introspection_cpp.hpp
+[7.215s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/include/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs/srv/detail/had_map_service__rosidl_typesupport_introspection_cpp.hpp
+[7.220s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/environment/pythonpath.sh
+[7.224s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/environment/pythonpath.dsv
+[7.229s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[7.234s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[7.238s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[7.243s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[7.248s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/__init__.py
+[7.252s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/_autoware_auto_mapping_msgs_s.ep.rosidl_typesupport_c.c
+[7.256s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/_autoware_auto_mapping_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.260s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/_autoware_auto_mapping_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.265s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.270s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.275s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.279s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/libautoware_auto_mapping_msgs__rosidl_generator_py.so
+[7.284s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/msg/__init__.py
+[7.288s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/msg/_had_map_bin.py
+[7.292s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/msg/_had_map_bin_s.c
+[7.297s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/msg/_had_map_segment.py
+[7.301s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/msg/_had_map_segment_s.c
+[7.305s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/msg/_map_primitive.py
+[7.310s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/msg/_map_primitive_s.c
+[7.314s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/srv/__init__.py
+[7.319s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/srv/_had_map_service.py
+[7.323s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/srv/_had_map_service_s.c
+[7.327s] -- Up-to-date symlink: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.328s] -- Up-to-date symlink: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.328s] -- Up-to-date symlink: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/autoware_auto_mapping_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.328s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/msg/HADMapBin.idl
+[7.332s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/msg/HADMapSegment.idl
+[7.337s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/msg/MapPrimitive.idl
+[7.341s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/srv/HADMapService.idl
+[7.346s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/ament_index/resource_index/package_run_dependencies/autoware_auto_mapping_msgs
+[7.350s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/ament_index/resource_index/parent_prefix_path/autoware_auto_mapping_msgs
+[7.354s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/environment/ament_prefix_path.sh
+[7.358s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/environment/ament_prefix_path.dsv
+[7.362s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/environment/path.sh
+[7.366s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/environment/path.dsv
+[7.371s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/local_setup.bash
+[7.374s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/local_setup.sh
+[7.379s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/local_setup.zsh
+[7.384s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/local_setup.dsv
+[7.388s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/package.dsv
+[7.392s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/ament_index/resource_index/packages/autoware_auto_mapping_msgs
+[7.397s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/rosidl_cmake-extras.cmake
+[7.401s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.406s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.410s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.415s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.419s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.423s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.427s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/autoware_auto_mapping_msgsConfig.cmake
+[7.431s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/autoware_auto_mapping_msgsConfig-version.cmake
+[7.436s] -- Symlinking: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/package.xml
+[7.440s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_generator_c.so
+[7.440s] -- Set runtime path of "/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_generator_c.so" to ""
+[7.441s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_c.so
+[7.443s] -- Set runtime path of "/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.443s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_typesupport_introspection_c.so
+[7.443s] -- Set runtime path of "/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.443s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_typesupport_c.so
+[7.443s] -- Set runtime path of "/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_typesupport_c.so" to ""
+[7.443s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.443s] -- Set runtime path of "/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.443s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_typesupport_introspection_cpp.so
+[7.443s] -- Set runtime path of "/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.443s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_typesupport_cpp.so
+[7.443s] -- Set runtime path of "/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_typesupport_cpp.so" to ""
+[7.463s] Listing '/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs'...
+[7.463s] Compiling '/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/__init__.py'...
+[7.463s] Listing '/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/msg'...
+[7.463s] Compiling '/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/msg/__init__.py'...
+[7.463s] Compiling '/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/msg/_had_map_bin.py'...
+[7.463s] Compiling '/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/msg/_had_map_segment.py'...
+[7.463s] Compiling '/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/msg/_map_primitive.py'...
+[7.463s] Listing '/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/srv'...
+[7.463s] Compiling '/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/srv/__init__.py'...
+[7.463s] Compiling '/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages/autoware_auto_mapping_msgs/srv/_had_map_service.py'...
+[7.465s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_generator_py.so
+[7.466s] -- Set runtime path of "/root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/lib/libautoware_auto_mapping_msgs__rosidl_generator_py.so" to ""
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/export_autoware_auto_mapping_msgs__rosidl_generator_cExport.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/export_autoware_auto_mapping_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/export_autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/export_autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/autoware_auto_mapping_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/autoware_auto_mapping_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/autoware_auto_mapping_msgs__rosidl_typesupport_cExport.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/autoware_auto_mapping_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/export_autoware_auto_mapping_msgs__rosidl_generator_cppExport.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/export_autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/export_autoware_auto_mapping_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/autoware_auto_mapping_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/autoware_auto_mapping_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/autoware_auto_mapping_msgs__rosidl_typesupport_cppExport.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/autoware_auto_mapping_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/export_autoware_auto_mapping_msgs__rosidl_generator_pyExport.cmake
+[7.467s] -- Installing: /root/workspace/vehicle_control_ws/install/autoware_auto_mapping_msgs/share/autoware_auto_mapping_msgs/cmake/export_autoware_auto_mapping_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.469s] Invoked command in '/root/workspace/vehicle_control_ws/build/autoware_auto_mapping_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspace/vehicle_control/install/vehicle_control /usr/bin/cmake --install /root/workspace/vehicle_control_ws/build/autoware_auto_mapping_msgs

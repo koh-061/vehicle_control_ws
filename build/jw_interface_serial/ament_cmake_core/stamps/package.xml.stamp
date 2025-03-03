@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>jw_interface_serial</name>
+  <version>0.0.0</version>
+  <description>The jw_interface_serial package</description>
+  <license>Apache 2</license>
+
+  <maintainer email="yamato.ando@gmail.com">YamatoAndo</maintainer>
+  <author email="yamato.ando@gmail.com">YamatoAndo</author>
+  <author email="azumi-suzuki@todo.todo">azumi-suzuki</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>jw_interface_msgs</depend>
+  <depend>rclcpp</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>autoware_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

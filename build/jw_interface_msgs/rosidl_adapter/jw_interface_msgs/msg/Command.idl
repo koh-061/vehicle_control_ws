@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from jw_interface_msgs/msg/Command.msg
+// generated code does not contain a copyright notice
+
+#include "jw_interface_msgs/msg/JSADCommand.idl"
+#include "jw_interface_msgs/msg/ModeCommand.idl"
+#include "jw_interface_msgs/msg/MotorRPMCommand.idl"
+
+module jw_interface_msgs {
+  module msg {
+    struct Command {
+      jw_interface_msgs::msg::ModeCommand mode;
+
+      jw_interface_msgs::msg::JSADCommand js_ad;
+
+      jw_interface_msgs::msg::MotorRPMCommand motor_rpm;
+    };
+  };
+};

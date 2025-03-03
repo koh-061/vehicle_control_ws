@@ -1,0 +1,4 @@
+source;share/jw_interface_serial/local_setup.bash
+source;share/jw_interface_serial/local_setup.dsv
+source;share/jw_interface_serial/local_setup.sh
+source;share/jw_interface_serial/local_setup.zsh

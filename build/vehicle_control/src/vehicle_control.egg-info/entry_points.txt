@@ -1,0 +1,3 @@
+[console_scripts]
+vehicle_controller = vehicle_control.vehicle_controller:main
+

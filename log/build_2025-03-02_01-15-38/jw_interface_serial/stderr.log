@@ -1,0 +1,14 @@
+[01m[K/root/workspace/vehicle_control_ws/src/jw_interface_serial/src/jw_interface_serial_core.cpp:[m[K In member function ‘[01m[Kvoid JwInterfaceSerial::writeSerial()[m[K’:
+[01m[K/root/workspace/vehicle_control_ws/src/jw_interface_serial/src/jw_interface_serial_core.cpp:308:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kbuf[m[K’ [[01;35m[K-Wvla[m[K]
+  308 |   unsigned char [01;35m[Kbuf[m[K[command.size()] = {0};
+      |                 [01;35m[K^~~[m[K
+[01m[K/root/workspace/vehicle_control_ws/src/jw_interface_serial/src/jw_interface_serial_core.cpp:[m[K In member function ‘[01m[Kstd::array<unsigned char, 2> JwInterfaceSerial::toHexString(int)[m[K’:
+[01m[K/root/workspace/vehicle_control_ws/src/jw_interface_serial/src/jw_interface_serial_core.cpp:332:31:[m[K [01;35m[Kwarning: [m[Kargument to ‘[01m[Ksizeof[m[K’ in ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’ call is the same expression as the destination; did you mean to provide an explicit length? [[01;35m[K-Wsizeof-pointer-memaccess[m[K]
+  332 |   std::snprintf(&val_char[0], [01;35m[Ksizeof(&val_char[0])[m[K, "%8x", static_cast<int>(val));
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/workspace/vehicle_control_ws/src/jw_interface_serial/src/jw_interface_serial_core.cpp:332:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksnprintf[m[K’ output truncated before the last format character [[01;35m[K-Wformat-truncation=[m[K]
+  332 |   std::snprintf(&val_char[0], sizeof(&val_char[0]), "%8x[01;35m[K"[m[K, static_cast<int>(val));
+      |                                                         [01;35m[K^[m[K
+[01m[K/root/workspace/vehicle_control_ws/src/jw_interface_serial/src/jw_interface_serial_core.cpp:332:16:[m[K [01;36m[Knote: [m[K‘[01m[Ksnprintf[m[K’ output 9 bytes into a destination of size 8
+  332 |   [01;36m[Kstd::snprintf(&val_char[0], sizeof(&val_char[0]), "%8x", static_cast<int>(val))[m[K;
+      |   [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

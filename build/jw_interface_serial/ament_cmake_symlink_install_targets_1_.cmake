@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/workspace/vehicle_control_ws/build/jw_interface_serial/jw_interface_serial_node" "TARGETS" "jw_interface_serial_node" "DESTINATION" "lib/jw_interface_serial")

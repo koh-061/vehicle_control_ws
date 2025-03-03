@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from jw_interface_msgs/msg/MotorRPMStatus.msg
+// generated code does not contain a copyright notice
+
+
+module jw_interface_msgs {
+  module msg {
+    struct MotorRPMStatus {
+      float left_rpm;
+
+      float right_rpm;
+    };
+  };
+};

@@ -1,0 +1,15 @@
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/ament_index/resource_index/package_run_dependencies/autoware_auto_msgs
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/ament_index/resource_index/parent_prefix_path/autoware_auto_msgs
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/autoware_auto_msgs/environment/ament_prefix_path.sh
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/autoware_auto_msgs/environment/ament_prefix_path.dsv
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/autoware_auto_msgs/environment/path.sh
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/autoware_auto_msgs/environment/path.dsv
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/autoware_auto_msgs/local_setup.bash
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/autoware_auto_msgs/local_setup.sh
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/autoware_auto_msgs/local_setup.zsh
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/autoware_auto_msgs/local_setup.dsv
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/autoware_auto_msgs/package.dsv
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/ament_index/resource_index/packages/autoware_auto_msgs
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/autoware_auto_msgs/cmake/autoware_auto_msgsConfig.cmake
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/autoware_auto_msgs/cmake/autoware_auto_msgsConfig-version.cmake
+/root/workspace/vehicle_control_ws/install/autoware_auto_msgs/share/autoware_auto_msgs/package.xml
