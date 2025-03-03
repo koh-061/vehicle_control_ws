@@ -1,1 +1,0 @@
-/root/workspace/vehicle_control_ws/build/vehicle_control/launch/vehicle_control.launch.py

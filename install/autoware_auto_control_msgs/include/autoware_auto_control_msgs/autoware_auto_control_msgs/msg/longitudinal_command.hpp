@@ -1,1 +1,0 @@
-/root/workspace/vehicle_control_ws/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/longitudinal_command.hpp

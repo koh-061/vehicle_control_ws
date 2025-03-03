@@ -1,1 +1,0 @@
-/root/workspace/vehicle_control_ws/src/jw_interface_serial/include/jw_interface_serial/jw_interface_serial_core.hpp
